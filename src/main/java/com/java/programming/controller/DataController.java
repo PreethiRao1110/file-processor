@@ -46,7 +46,7 @@ public class DataController {
 
     @GetMapping("/all1")
     public String getAllData1(){
-        return "The app is deployed";
+        return "The app is deployed in azure";
     }
 
 }
