@@ -44,4 +44,9 @@ public class DataController {
       return dataService.getAllData();
     }
 
+    @GetMapping("/all1")
+    public String getAllData1(){
+        return "The app is deployed";
+    }
+
 }
